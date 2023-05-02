@@ -307,3 +307,115 @@ button:hover{
     background-color: #bfbfbf;
     color: black;
 }
+
+@media(max-width: 768px){
+    .hero-container{
+        width: 100%;
+    }
+
+    h1{
+        width: 90%;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav {
+        width: 50%;
+    }
+
+    ul{
+        display: none;
+    }
+
+    .profile-container{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .profile-card{
+       width: 110%;
+    }
+
+    .profile-image{
+        width: 80%;
+    }
+
+    .name-text{
+        width: 105%;
+    }
+
+    .profile-text{
+        width: 125%;
+    }
+
+    .profile-button{
+        width: 120px;
+    }
+
+    .divider{
+        width: 100%;
+    }
+
+    .icons-container{
+        width: 50%;
+    }
+
+    .icon-item{
+        width: 90%;
+    }
+    
+    .profile-sinopse{
+        width: 90%;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+    .project-container{
+        width: 100%;
+        background-size: cover;
+        background-position:50% 50% ;
+    }
+
+    .project-content{
+        width: 100%;
+    }
+
+    .right{
+        justify-content: flex-end;
+    }
+
+    .project-card{
+        width: 100%;
+    }
+
+    .card-reverse{
+        flex-direction: column-reverse;
+    }
+    
+    .project-image{
+        width: 60%;
+        border-radius: 8px;
+        top: 40px;
+        flex-direction: column;
+    }
+    
+    .image-reverse{
+        left: 20px;
+    }
+    
+    .project-text{
+        color: white;
+        font-family: 'oswald', sans-serif;
+        width: 40%;
+    }
+
+    .form-container{
+        width: 100%;
+    }
+
+    form{
+        width: 80%;
+    }
+}
