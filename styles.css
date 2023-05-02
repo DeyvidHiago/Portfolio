@@ -103,7 +103,7 @@ li:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(../jack-b-B10AxHKLvnQ-unsplash.jpg);
+    background-image: url('jack-b-B10AxHKLvnQ-unsplash.jpg');
     background-size: cover;
 }
 
